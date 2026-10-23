@@ -1,0 +1,70 @@
+<?php
+
+return [
+    'accepted' => ':attribute harus diterima.',
+    'after' => ':attribute harus berisi tanggal setelah :date.',
+    'after_or_equal' => ':attribute harus berisi tanggal setelah atau sama dengan :date.',
+    'before_or_equal' => ':attribute harus berisi tanggal sebelum atau sama dengan :date.',
+    'between' => [
+        'numeric' => ':attribute harus bernilai antara :min sampai :max.',
+        'file' => 'Ukuran :attribute harus antara :min sampai :max kilobita.',
+        'string' => ':attribute harus terdiri dari :min sampai :max karakter.',
+    ],
+    'confirmed' => 'Konfirmasi :attribute tidak cocok.',
+    'current_password' => 'Password lama tidak sesuai.',
+    'date' => ':attribute bukan tanggal yang valid.',
+    'date_format' => ':attribute tidak sesuai format :format.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'exists' => ':attribute yang dipilih tidak valid.',
+    'image' => ':attribute harus berupa gambar.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'max' => [
+        'numeric' => ':attribute maksimal bernilai :max.',
+        'file' => 'Ukuran :attribute maksimal :max kilobita.',
+        'string' => ':attribute maksimal :max karakter.',
+    ],
+    'mimes' => ':attribute harus berupa berkas bertipe: :values.',
+    'min' => [
+        'numeric' => ':attribute minimal bernilai :min.',
+        'file' => 'Ukuran :attribute minimal :min kilobita.',
+        'string' => ':attribute minimal :min karakter.',
+    ],
+    'numeric' => ':attribute harus berupa angka.',
+    'required' => ':attribute wajib diisi.',
+    'required_with' => ':attribute wajib diisi jika :values dipilih.',
+    'string' => ':attribute harus berupa teks.',
+    'unique' => ':attribute sudah digunakan.',
+    'uploaded' => ':attribute gagal diunggah.',
+
+    'custom' => [
+        'email' => [
+            'required' => 'Email wajib diisi.',
+            'email' => 'Format email tidak valid.',
+            'unique' => 'Email sudah terdaftar.',
+        ],
+        'password' => [
+            'required' => 'Password wajib diisi.',
+            'min' => 'Password minimal 8 karakter.',
+            'confirmed' => 'Konfirmasi password tidak cocok.',
+        ],
+    ],
+
+    'attributes' => [
+        'nama' => 'Nama',
+        'email' => 'Email',
+        'password' => 'Password',
+        'alamat' => 'Alamat',
+        'harga' => 'Harga',
+        'stok' => 'Stok',
+        'gambar' => 'Gambar',
+        'deskripsi' => 'Deskripsi',
+        'rating' => 'Rating',
+        'komen' => 'Komentar',
+        'jumlah' => 'Jumlah',
+        'metode' => 'Metode pembayaran',
+        'kontak' => 'Kontak',
+        'logo' => 'Logo',
+        'status' => 'Status',
+    ],
+];
